@@ -5,8 +5,6 @@ import javax.xml.bind.annotation.*;
 @XmlRootElement
 public class DistanceCalc {
 	public double distance;
-
-	@XmlAttribute
 	public String unit = "km";
 	public double lat1;
 	public double lon1;
